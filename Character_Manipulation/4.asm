@@ -1,9 +1,4 @@
-;
-; Write an assembly language program that will
-; process the given sentence as follows:
-; a) Toggle only the lower case letters to Upper case
-; b) Count and save the number of letters changing
-;    case and number of characters remaining unchanged
+
 
 org 100h
 

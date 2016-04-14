@@ -1,5 +1,4 @@
-; Convert All letters in the following sentence 
-; to small letters   & Save total number of letters
+
 
 org 100h
 

@@ -1,8 +1,4 @@
-;
-; Write a program to 
-; a) convert A='28' B='54' from ASCII to PACKED BCD
-; b) Sum the PACKED BCD and store the answer in memory
-; Assume the answer is a byte
+
 org 100h
 
 ; add your code here

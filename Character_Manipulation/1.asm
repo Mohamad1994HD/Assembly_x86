@@ -1,7 +1,3 @@
-              
-;
-;   ASCII TO UNPACKED BCD
-;
 
 org 100h
 

@@ -1,6 +1,4 @@
-;
-; PACKED BCD TO ASCII
-;
+
 
 org 100h
 
