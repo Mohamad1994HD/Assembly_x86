@@ -24,3 +24,7 @@
 
 6)
   Convert a Packed BCD number into ASCII code
+
+7)
+  Given 'Mohamad hd' as one string name and surname, convert the name to
+  lower case letters and the surname to uppercase letters

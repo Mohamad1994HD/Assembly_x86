@@ -1,0 +1,41 @@
+
+
+
+DELAY MACRO 
+    LOCAL w1
+    
+    MOV CX, BASE_DELAY_AMNT
+    
+    ;PUSH AX
+    
+    w1:
+        IN AL, 61H
+        AND AL, 10H
+        CMP AL, AH
+        JE w1
+        MOV AH, AL
+        LOOP w1 
+   ; POP AX
+    
+ENDM   
+    
+    
+SET_DELAY   MACRO DTIME
+    LOCAL w, PASS1
+    ;         
+    PUSH AX
+    MOV CX, DTIME
+    CMP CX, 0 
+    JE PASS1
+    w:        
+        PUSH CX
+        DELAY  
+        ;DISPLAY _DELAYIN_
+        POP CX
+        LOOP w  
+    
+    PASS1:;
+    POP AX
+    
+ENDM
+
